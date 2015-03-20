@@ -1,57 +1,121 @@
 <html>
   <head>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
     <style>
 
+
       h1 {
-        color: #ffffff;
-        background-color: DarkOrange;
-        margin: 50px;
-        padding: 20px;
-        font-size: 48px;
-        height: 200px;
-        width: 300px;
+        color: DarkOrange;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 68px;
+        padding-top: 64px;
+        text-align: center;
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h2 {
+        text-align: center;
       }
 
       p {
         color: DimGray;
-        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .subheading {
+        text-align: center;
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
       }
 
       .bio {
-        font-size: 24px;
+        font-size: 16px;
+        line-height: 36px;
+        text-align: center;
+        width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
       }
 
       .footer {
         color: #ffffff;
         background-color: DarkGray;
-        height: 300px;
+        height: 100px;
+        padding-top: 50px;
       }
+
+      .image-container {
+        display: inline-block;
+        text-align: center;
+        width: 300px;
+      }
+
+      .image-container span {
+        color: DarkOrange;
+      }
+
+      .image-container img {
+        margin-bottom: 20px;
+      }
+
+      .fave-things {
+        text-align: center;
+        margin-bottom: 100px;
+      }
+
+      hr {
+        width: 640px;
+      }
+
+
 
     </style>
   </head>
   <body>
     <h1>Paul Maeda</h1>
-    <p class="bio">Hello, my name is Paul Maeda. I'm a graphic designer from Rogers Park, Chicago. Welcome to my page that I created at Starter League.</p>
-    <div>
-      <a href="http://www.google.com">
-        <img src="http://s27.postimg.org/qkvzjo2oj/IMG_6425.jpg" alt="Hawaii 01" width="400px">
-      </a>
-      <p>01 This is an image of jars in a house in Kohala.</p>
+    <p class="subheading">I'm just a regular designer trying to code.</p>
+    <hr>
+    <p class="bio">Hello, my name is Paul Maeda. I'm a graphic designer from Chicago. Welcome to my page that I created from scratch in just 3 hours at Starter League.</p>
+
+    <div class="fave-things">
+      <div class="image-container">
+        <a href="http://www.google.com">
+          <img src="http://s27.postimg.org/qkvzjo2oj/IMG_6425.jpg" alt="Hawaii 01" width="300px">
+        </a>
+        <p><span>01</span></p>
+        <p>Jars in a house in Kohala.</p>
+      </div>
+      <div class="image-container">
+        <a href="http://www.google.com">
+          <img src="http://s1.postimg.org/hjo9g72kv/IMG_6568.jpg" alt="Hawaii 02" width="300px">
+        </a>
+        <p><span>02</span></p>
+        <p>The ocean in Honolulu.</p>
+      </div>
+      <div class="image-container">
+        <a href="http://www.google.com">
+          <img src="http://s10.postimg.org/7wpgi5hy1/IMG_6953.jpg" alt="Hawaii 03" width="300px">
+        </a>
+        <p><span>03</span></p>
+        <p>A dog on the kitchen counter.</p>
+      </div>
     </div>
-    <div>
-      <a href="http://www.google.com">
-        <img src="http://s1.postimg.org/hjo9g72kv/IMG_6568.jpg" alt="Hawaii 02" width="400px">
-      </a>
-      <p>02 This is an image of the ocean in Honolulu.</p>
-    </div>
-    <div>
-      <a href="http://www.google.com">
-        <img src="http://s10.postimg.org/7wpgi5hy1/IMG_6953.jpg" alt="Hawaii 03" width="400px">
-      </a>
-      <p>03 This is an image of a dog on the kitchen counter.</p>
-    </div>
+
     <div class="footer">
       <p>Paul Maeda / 2015</p>
     </div>
   </body>
 </html>
+
+
+
